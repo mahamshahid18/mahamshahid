@@ -1,0 +1,50 @@
+#index-container .container-fluid {
+  padding: 0px 0px; }
+
+#index-container .btn {
+  border-radius: 0px; }
+
+#index-container img {
+  border-radius: 0px; }
+
+#index-container .landing-page-layout {
+  height: 100vh;
+  background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#index-container #body-page-layout .software-section {
+  min-height: 100vh;
+  background: url("../../img/stormtrooper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #index-container #body-page-layout .software-section .sidebar {
+    background: white;
+    height: 100%; }
+    #index-container #body-page-layout .software-section .sidebar .title, #index-container #body-page-layout .software-section .sidebar .body {
+      margin: 0 auto;
+      padding: 40px 20px; }
+    #index-container #body-page-layout .software-section .sidebar .title {
+      background: silver; }
+  #index-container #body-page-layout .software-section .right-section {
+    padding: 50px 50px; }
+    #index-container #body-page-layout .software-section .right-section .col-lg-6 {
+      padding-bottom: 15px; }
+    #index-container #body-page-layout .software-section .right-section .card {
+      border-radius: 0px; }
+      #index-container #body-page-layout .software-section .right-section .card .card-header {
+        border-radius: 0px; }
+        #index-container #body-page-layout .software-section .right-section .card .card-header h5 {
+          margin-bottom: 0px; }
+
+#index-container #body-page-layout .others-section {
+  min-height: 100vh;
+  background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }

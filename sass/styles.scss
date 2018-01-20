@@ -1,0 +1,84 @@
+#index-container {
+	//font-family: 'Roboto';
+
+	.container-fluid {
+		padding: 0px 0px;
+	}
+
+	.btn {
+		border-radius: 0px;
+	}
+
+	img {
+		border-radius: 0px;
+	}
+
+	.landing-page-layout {
+		height: 100vh;
+		background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		nav {
+			//position: sticky;
+			//position: -webkit-sticky;
+		}
+	}
+
+	#body-page-layout {
+		.software-section {
+			min-height: 100vh;
+			background: url("../../img/stormtrooper.jpg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			.sidebar {
+				background: white;
+				height:100%;
+
+				.title, .body {
+					margin: 0 auto;
+					padding: 40px 20px;
+				}
+
+				.title {
+					background: silver;
+				}
+			}
+
+			.right-section {
+				padding: 50px 50px;
+
+				.col-lg-6 {
+					padding-bottom: 15px;
+				}
+
+				.card {
+					border-radius: 0px;
+
+					.card-header {
+						border-radius: 0px;
+
+						h5 {
+							margin-bottom: 0px;
+						}
+					}
+				}
+			}
+
+		}
+
+		.others-section {
+			min-height: 100vh;
+			background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	}
+}
