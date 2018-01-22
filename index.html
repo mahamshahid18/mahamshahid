@@ -12,28 +12,68 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="css/shards.min.css">
         <link rel="stylesheet" href="css/shards-extras.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
         <link rel="stylesheet" href="css/styles/styles.css">
     </head>
     
     <body>
       <div id="index-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-none">
+          <a class="navbar-brand" href="#">
+            MAHAM SHAHID
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-collapse" aria-controls="header-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="header-collapse">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="#software-section">
+                Software Engineer
+              </a>
+              <a class="nav-item nav-link" href="#design-section">
+                Designer
+              </a>
+              <a class="nav-item nav-link" href="#photography-section">
+                Photographer
+              </a>
+              <a class="nav-item nav-link" href="#videography-section">
+                Videographer
+              </a>
+          </div>
+        </nav>
         <div class="landing-page-layout">
-          <div class="container-fluid">
-            <nav class="nav">
-              <a class="navbar-brand" href="#">Maham Shahid</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Disabled</a>
-            </nav>
-            <h1>hello</h1>
+          <nav class="nav">
+            <a class="nav-header" href="#">MAHAM SHAHID</a>
+            <div class="ml-auto my-auto">
+              <a class="nav-item" href="#software-section">
+                Software Engineer
+              </a>
+              <a class="nav-item" href="#design-section">
+                Designer
+              </a>
+              <a class="nav-item" href="#photography-section">
+                Photographer
+              </a>
+              <a class="nav-item" href="#videography-section">
+                Videographer
+              </a>
+            </div>
+          </nav>
+          <div class="landing-page-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <a href="#body-page-layout" class="btn btn-primary btn-lg" id="landing-page-button">Browse Work</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="body-page-layout">
           <div class="container-fluid">
-            <div class="software-section">
-
+            <div class="software-section" id="software-section">
               <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0">
+                <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0 hidden-sm-down">
                   <div class="sidebar">
                     <div class="title">
                       <h4>
@@ -98,11 +138,120 @@
             </div>
             <div class="others-section">
               <div class="row">
-                <div class="col-lg-3 col-md-3">
-                  world
+                <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0 hidden-sm-down">
+                  <div class="sidebar">
+                    <div class="title">
+                      <h4>
+                        Other Skills
+                      </h4>
+                    </div>
+                    <div class="body">
+                      Some description here. Add  more and more and more until it overflows!
+                    </div>
+                  </div>
                 </div>
-                <div class="col-lg-9 col-md-9">
-                  world
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                  <div id="design-section">
+                    <div class="row">
+                      <div class="section-title">
+                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                        <h5>
+                          DESIGN
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="row right-section">
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <a href="img/black-ops2.jpg" data-lightbox="example1" data-title="example image">
+                            <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          </a>
+                          <h5 class="card-header">Image1</h5>
+                          <div class="card-body">
+                            <p class="card-text">
+                              Some description right over here
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          <h5 class="card-header">Image1</h5>
+                          <div class="card-body">
+                            <p class="card-text">
+                              Some description right over here
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          <h5 class="card-header">Image1</h5>
+                          <div class="card-body">
+                            <p class="card-text">
+                              Some description right over here
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="photography-section">
+                    <div class="row">
+                      <div class="section-title">
+                        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                        <h5>
+                          PHOTOGRAPHY
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="row right-section">
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <a href="img/black-ops2.jpg" data-lightbox="example1" data-title="example image">
+                            <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          </a>
+                          <h5 class="card-header">Album Name</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <a href="img/black-ops2.jpg" data-lightbox="example1" data-title="example image">
+                            <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          </a>
+                          <h5 class="card-header">Album Name</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                          <a href="img/black-ops2.jpg" data-lightbox="album example" data-title="album example">
+                            <img src="img/black-ops2.jpg" class="card-img-top"/>
+                          </a>
+                          <h5 class="card-header">Album Name</h5>
+                        </div>
+                        <div class="album-hidden">
+                          <a href="img/stormtrooper.jpg" data-lightbox="album example" data-title="caption here"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="videography-section">
+                    <div class="row">
+                      <div class="section-title">
+                        <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        <h5>
+                          VIDEOGRAPHY
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="row right-section">
+                      <div class="iframe-container">
+                        <iframe src="https://player.vimeo.com/video/177897350" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,8 +260,10 @@
       </div>
 
       <!-- JavaScript Dependencies -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <script src="js/lightbox.js"></script>
+      <script src="js/index.js"></script>
     </body>
 </html>

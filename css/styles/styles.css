@@ -9,42 +9,77 @@
 
 #index-container .landing-page-layout {
   height: 100vh;
+  width: 100%;
   background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #index-container .landing-page-layout nav {
+    padding: 20px 20px; }
+    #index-container .landing-page-layout nav a.nav-header {
+      padding: 0px 20px;
+      font-size: 24px;
+      text-decoration: none; }
+    #index-container .landing-page-layout nav a.nav-item {
+      padding: 0px 20px;
+      font-size: 18px;
+      text-decoration: none; }
+  #index-container .landing-page-layout .landing-page-body {
+    padding: 20px 20px; }
+    #index-container .landing-page-layout .landing-page-body #landing-page-button {
+      position: relative;
+      top: 70vh; }
+      @media screen and (max-width: 379px) {
+        #index-container .landing-page-layout .landing-page-body #landing-page-button {
+          top: 65vh; } }
 
-#index-container #body-page-layout .software-section {
+#index-container #body-page-layout .sidebar {
+  height: 100%;
+  background: white; }
+  #index-container #body-page-layout .sidebar .title, #index-container #body-page-layout .sidebar .body {
+    margin: 0 auto;
+    padding: 40px 20px; }
+  #index-container #body-page-layout .sidebar .title {
+    background: silver; }
+
+#index-container #body-page-layout .right-section {
+  padding: 50px 50px; }
+  #index-container #body-page-layout .right-section .col-lg-6 {
+    padding-bottom: 15px; }
+  #index-container #body-page-layout .right-section .col-lg-4 {
+    padding-bottom: 15px; }
+  #index-container #body-page-layout .right-section .card {
+    border-radius: 0px; }
+    #index-container #body-page-layout .right-section .card .card-header {
+      border-radius: 0px; }
+      #index-container #body-page-layout .right-section .card .card-header h5 {
+        margin-bottom: 0px; }
+
+#index-container #body-page-layout .software-section, #index-container #body-page-layout .others-section {
   min-height: 100vh;
   background: url("../../img/stormtrooper.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #index-container #body-page-layout .software-section .sidebar {
-    background: white;
-    height: 100%; }
-    #index-container #body-page-layout .software-section .sidebar .title, #index-container #body-page-layout .software-section .sidebar .body {
-      margin: 0 auto;
-      padding: 40px 20px; }
-    #index-container #body-page-layout .software-section .sidebar .title {
-      background: silver; }
-  #index-container #body-page-layout .software-section .right-section {
-    padding: 50px 50px; }
-    #index-container #body-page-layout .software-section .right-section .col-lg-6 {
-      padding-bottom: 15px; }
-    #index-container #body-page-layout .software-section .right-section .card {
-      border-radius: 0px; }
-      #index-container #body-page-layout .software-section .right-section .card .card-header {
-        border-radius: 0px; }
-        #index-container #body-page-layout .software-section .right-section .card .card-header h5 {
-          margin-bottom: 0px; }
 
 #index-container #body-page-layout .others-section {
-  min-height: 100vh;
-  background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: url("../../img/black-ops2.jpg") no-repeat center center fixed; }
+  #index-container #body-page-layout .others-section .iframe-container {
+    margin: 0px auto; }
+    @media screen and (max-width: 767px) {
+      #index-container #body-page-layout .others-section .iframe-container iframe {
+        width: 260px;
+        height: 180px; } }
+  #index-container #body-page-layout .others-section .section-title {
+    background: silver;
+    padding: 40px;
+    margin: 20px 20px; }
+    #index-container #body-page-layout .others-section .section-title i, #index-container #body-page-layout .others-section .section-title h5 {
+      display: inline-block; }
+    #index-container #body-page-layout .others-section .section-title i {
+      padding: 0px 5px; }
+    @media screen and (max-width: 767px) {
+      #index-container #body-page-layout .others-section .section-title {
+        width: 100vw; } }

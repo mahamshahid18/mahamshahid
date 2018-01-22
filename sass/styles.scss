@@ -13,8 +13,10 @@
 		border-radius: 0px;
 	}
 
+
 	.landing-page-layout {
 		height: 100vh;
+		width:100%;
 		background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -22,13 +24,76 @@
 		background-size: cover;
 
 		nav {
-			//position: sticky;
-			//position: -webkit-sticky;
+			padding: 20px 20px;
+
+			a.nav-header {
+				padding: 0px 20px;
+				font-size: 24px;
+				text-decoration: none;
+			}
+			a.nav-item {
+				padding: 0px 20px;
+				font-size: 18px;
+				text-decoration: none;
+			}
 		}
+
+		.landing-page-body {
+			padding: 20px 20px;
+
+			#landing-page-button {
+				position: relative;
+				top: 70vh;
+
+				@media screen and (max-width:379px){
+					top: 65vh;
+				}
+			}
+		}
+
 	}
 
 	#body-page-layout {
-		.software-section {
+
+		.sidebar {
+			height:100%;
+			background: white;
+
+			.title, .body {
+				margin: 0 auto;
+				padding: 40px 20px;
+			}
+
+			.title {
+				background: silver;
+			}
+		}
+
+		.right-section {
+			padding: 50px 50px;
+
+			.col-lg-6 {
+				padding-bottom: 15px;
+			}
+
+			.col-lg-4 {
+				padding-bottom: 15px;
+			}
+
+			.card {
+				border-radius: 0px;
+
+				.card-header {
+					border-radius: 0px;
+
+					h5 {
+						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+
+		.software-section, .others-section{
 			min-height: 100vh;
 			background: url("../../img/stormtrooper.jpg") no-repeat center center fixed;
 			-webkit-background-size: cover;
@@ -36,49 +101,39 @@
 			-o-background-size: cover;
 			background-size: cover;
 
-			.sidebar {
-				background: white;
-				height:100%;
+		}
 
-				.title, .body {
-					margin: 0 auto;
-					padding: 40px 20px;
-				}
+		.others-section {
+			background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
 
-				.title {
-					background: silver;
-				}
-			}
+			.iframe-container {
+				margin: 0px auto;
 
-			.right-section {
-				padding: 50px 50px;
-
-				.col-lg-6 {
-					padding-bottom: 15px;
-				}
-
-				.card {
-					border-radius: 0px;
-
-					.card-header {
-						border-radius: 0px;
-
-						h5 {
-							margin-bottom: 0px;
-						}
+				iframe {
+					@media screen and (max-width: 767px) {
+						width:260px;
+						height:180px;
 					}
 				}
 			}
 
-		}
+			.section-title {
+				background: silver;
+				padding: 40px;
+				margin: 20px 20px;
 
-		.others-section {
-			min-height: 100vh;
-			background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
+				i, h5 {
+					display: inline-block;
+				}
+
+				i {
+					padding: 0px 5px;
+				}
+
+				@media screen and (max-width:767px) {
+					width: 100vw;
+				}
+			}
 		}
 	}
 }
