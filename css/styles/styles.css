@@ -10,13 +10,17 @@
 #index-container .landing-page-layout {
   height: 100vh;
   width: 100%;
-  background: url("../../img/black-ops2.jpg") no-repeat center center fixed;
+  background: url("../../img/landing-back.png") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   #index-container .landing-page-layout nav {
     padding: 20px 20px; }
+    #index-container .landing-page-layout nav a {
+      color: #fff; }
+    #index-container .landing-page-layout nav a:hover {
+      color: #D2D7D3; }
     #index-container .landing-page-layout nav a.nav-header {
       padding: 0px 20px;
       font-size: 24px;
@@ -25,14 +29,34 @@
       padding: 0px 20px;
       font-size: 18px;
       text-decoration: none; }
+    @media screen and (max-width: 767px) {
+      #index-container .landing-page-layout nav {
+        display: none; } }
   #index-container .landing-page-layout .landing-page-body {
     padding: 20px 20px; }
+    #index-container .landing-page-layout .landing-page-body a {
+      background: #3b60ab;
+      color: #fff;
+      border-color: #3b60ab;
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05), 0 2px 5px rgba(0, 123, 255, 0.25); }
+    #index-container .landing-page-layout .landing-page-body a:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(0, 123, 255, 0.25); }
+    #index-container .landing-page-layout .landing-page-body h4 {
+      position: relative;
+      top: 30vh;
+      color: #EEEEEE; }
+      @media screen and (max-width: 379px) {
+        #index-container .landing-page-layout .landing-page-body h4 {
+          top: 2vh; } }
     #index-container .landing-page-layout .landing-page-body #landing-page-button {
       position: relative;
       top: 70vh; }
       @media screen and (max-width: 379px) {
         #index-container .landing-page-layout .landing-page-body #landing-page-button {
-          top: 65vh; } }
+          top: 40vh; } }
+      @media screen and (max-width: 767px) {
+        #index-container .landing-page-layout .landing-page-body #landing-page-button {
+          top: 50vh; } }
 
 #index-container #body-page-layout .sidebar {
   height: 100%;
@@ -41,7 +65,9 @@
     margin: 0 auto;
     padding: 40px 20px; }
   #index-container #body-page-layout .sidebar .title {
-    background: silver; }
+    background: #89C4F4; }
+    #index-container #body-page-layout .sidebar .title h4 {
+      color: #3A539B !important; }
 
 #index-container #body-page-layout .right-section {
   padding: 50px 50px; }
@@ -58,14 +84,14 @@
 
 #index-container #body-page-layout .software-section, #index-container #body-page-layout .others-section {
   min-height: 100vh;
-  background: url("../../img/stormtrooper.jpg") no-repeat center center fixed;
+  background: #ECF0F1 url("../../img/cloud.png") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 #index-container #body-page-layout .others-section {
-  background: url("../../img/black-ops2.jpg") no-repeat center center fixed; }
+  background: #ECF0F1 url("../../img/curvy.png") no-repeat center fixed; }
   #index-container #body-page-layout .others-section .iframe-container {
     margin: 0px auto; }
     @media screen and (max-width: 767px) {
@@ -83,3 +109,18 @@
     @media screen and (max-width: 767px) {
       #index-container #body-page-layout .others-section .section-title {
         width: 100vw; } }
+  #index-container #body-page-layout .others-section .design {
+    background: #F64747;
+    color: #ececec; }
+    #index-container #body-page-layout .others-section .design h5 {
+      color: #ececec; }
+  #index-container #body-page-layout .others-section .photo {
+    color: #ececec;
+    background: #2574A9; }
+    #index-container #body-page-layout .others-section .photo h5 {
+      color: #ececec; }
+  #index-container #body-page-layout .others-section .video {
+    color: #ececec;
+    background: #1BBC9B; }
+    #index-container #body-page-layout .others-section .video h5 {
+      color: #ececec; }
