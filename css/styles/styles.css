@@ -1,3 +1,6 @@
+body {
+  scroll-behavior: smooth; }
+
 #index-container .container-fluid {
   padding: 0px 0px; }
 
@@ -40,7 +43,9 @@
       border-color: #3b60ab;
       box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05), 0 2px 5px rgba(0, 123, 255, 0.25); }
     #index-container .landing-page-layout .landing-page-body a:hover {
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(0, 123, 255, 0.25); }
+      box-shadow: 0 15px 25px 1pxrgba 0, 0, 0, 0.05, 0 13px 20px rgba(0, 123, 255, 0.25);
+      background: #204692;
+      transition: ease-in 0.5s; }
     #index-container .landing-page-layout .landing-page-body h4 {
       position: relative;
       top: 30vh;
@@ -81,6 +86,22 @@
       border-radius: 0px; }
       #index-container #body-page-layout .right-section .card .card-header h5 {
         margin-bottom: 0px; }
+    #index-container #body-page-layout .right-section .card a.btn {
+      background: #3b60ab;
+      color: #fff;
+      border-color: #3b60ab;
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05), 0 2px 5px rgba(0, 123, 255, 0.25); }
+    #index-container #body-page-layout .right-section .card a.btn:hover {
+      background: #204692;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(0, 123, 255, 0.25);
+      transition: all 0.5s; }
+    #index-container #body-page-layout .right-section .card a.btn:focus {
+      background: #204692; }
+    #index-container #body-page-layout .right-section .card:hover {
+      box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
+      -webkit-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
+      -moz-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
+      -o-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1); }
 
 #index-container #body-page-layout .software-section, #index-container #body-page-layout .others-section {
   min-height: 100vh;
