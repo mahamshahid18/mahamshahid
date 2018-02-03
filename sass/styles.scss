@@ -291,6 +291,10 @@ body {
 		.others-section {
 			background: #ECF0F1 url("../../img/curvy.png") no-repeat center fixed;
 
+			@media screen and (max-width: 639px) {
+				background: #ECF0F1 url("../../img/curvy-long.png") no-repeat center fixed !important;
+			}
+
 			.iframe-container {
 				margin: 0px auto;
 

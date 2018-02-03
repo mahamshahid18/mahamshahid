@@ -193,6 +193,9 @@ body {
 
 #index-container #body-page-layout .others-section {
   background: #ECF0F1 url("../../img/curvy.png") no-repeat center fixed; }
+  @media screen and (max-width: 639px) {
+    #index-container #body-page-layout .others-section {
+      background: #ECF0F1 url("../../img/curvy-long.png") no-repeat center fixed !important; } }
   #index-container #body-page-layout .others-section .iframe-container {
     margin: 0px auto; }
     @media screen and (max-width: 767px) {
