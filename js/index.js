@@ -12,5 +12,5 @@ $(document).ready(function() {
 var checkScrollPosition = function() {
 	var scrollPosition = $(window).scrollTop();
 	$("nav.navbar").toggleClass("d-none", scrollPosition < 125);
-	$("nav.navbar").toggleClass("sticky-top", scrollPosition > 125);
+	$("nav.navbar").toggleClass("sticky-header", scrollPosition > 125);
 };
