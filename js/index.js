@@ -5,7 +5,8 @@ $(document).ready(function() {
 	if(windowWidth > 767) {
 		$(window).on('scroll', checkScrollPosition);
 	} else {
-		$("nav.navbar").removeClass("d-none");
+		$("nav.navbar").removeClass("d-none")
+			.addClass("sticky-header");
 	}
 });
 

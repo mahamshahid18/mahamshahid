@@ -88,7 +88,7 @@ body {
       color: #EEEEEE; }
       @media screen and (max-width: 379px) {
         #index-container .landing-page-layout .landing-page-body h4 {
-          top: 2vh; } }
+          top: 25vh; } }
     #index-container .landing-page-layout .landing-page-body #landing-page-button {
       position: relative;
       top: 70vh; }
