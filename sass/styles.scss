@@ -144,6 +144,12 @@ body {
 
 	#body-page-layout {
 
+		.container-fluid {
+			.row {
+				// margin-right: 0px !important;
+			}
+		}
+
 		.sidebar {
 			height:100%;
 			background: white;
