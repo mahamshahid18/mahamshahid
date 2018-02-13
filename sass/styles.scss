@@ -73,6 +73,14 @@ body {
 		-o-background-size: cover;
 		background-size: cover;
 
+		@media screen and (max-width:615px) {
+			background: url("../../img/landing-back-mobile.png") no-repeat center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
 		nav {
 			padding: 20px 20px;
 
