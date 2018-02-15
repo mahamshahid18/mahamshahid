@@ -1,6 +1,7 @@
 body {
 	scroll-behavior: smooth;
 	width: 100vw;
+	overflow-x: hidden;
 }
 
 .sticky-header {
@@ -130,8 +131,18 @@ body {
 				top:30vh;
 				color: #EEEEEE;
 
-				@media screen and (max-width:379px){
-					top: 25vh;
+				@media screen and (max-width:504px){
+					top: 12vh !important;
+					font-size:1.30rem !important;
+				}
+
+				@media screen and (min-width:505px) and (max-width:619px){
+					top: 10vh !important;
+					font-size:1.30rem !important;
+				}
+
+				@media screen and (min-width:620px) and (max-width:767px){
+					top: 20vh;
 				}
 			}
 
@@ -140,10 +151,10 @@ body {
 				top: 70vh;
 
 				@media screen and (max-width:379px){
-					top: 40vh;
+					top: 60vh;
 				}
 				@media screen and (max-width:767px){
-					top: 50vh;
+					top: 70vh;
 				}
 			}
 		}
@@ -372,6 +383,16 @@ body {
 					color: #ececec;
 				}
 			}
+		}
+
+		.modal-dialog {
+		    max-width: 70%;
+		    margin: 30px auto;
+		}
+
+		.modal-body {
+		  	position:relative;
+		  	padding:0px;
 		}
 	}
 }

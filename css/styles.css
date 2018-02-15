@@ -1,6 +1,7 @@
 body {
   scroll-behavior: smooth;
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden; }
 
 .sticky-header {
   top: 0;
@@ -93,18 +94,26 @@ body {
       position: relative;
       top: 30vh;
       color: #EEEEEE; }
-      @media screen and (max-width: 379px) {
+      @media screen and (max-width: 504px) {
         #index-container .landing-page-layout .landing-page-body h4 {
-          top: 25vh; } }
+          top: 12vh !important;
+          font-size: 1.30rem !important; } }
+      @media screen and (min-width: 505px) and (max-width: 619px) {
+        #index-container .landing-page-layout .landing-page-body h4 {
+          top: 10vh !important;
+          font-size: 1.30rem !important; } }
+      @media screen and (min-width: 620px) and (max-width: 767px) {
+        #index-container .landing-page-layout .landing-page-body h4 {
+          top: 20vh; } }
     #index-container .landing-page-layout .landing-page-body #landing-page-button {
       position: relative;
       top: 70vh; }
       @media screen and (max-width: 379px) {
         #index-container .landing-page-layout .landing-page-body #landing-page-button {
-          top: 40vh; } }
+          top: 60vh; } }
       @media screen and (max-width: 767px) {
         #index-container .landing-page-layout .landing-page-body #landing-page-button {
-          top: 50vh; } }
+          top: 70vh; } }
 
 #index-container #body-page-layout .sidebar {
   height: 100%;
@@ -240,3 +249,11 @@ body {
     background: #1BBC9B; }
     #index-container #body-page-layout .others-section .video h5 {
       color: #ececec; }
+
+#index-container #body-page-layout .modal-dialog {
+  max-width: 70%;
+  margin: 30px auto; }
+
+#index-container #body-page-layout .modal-body {
+  position: relative;
+  padding: 0px; }
