@@ -93,7 +93,8 @@ body {
     #index-container .landing-page-layout .landing-page-body h4 {
       position: relative;
       top: 30vh;
-      color: #EEEEEE; }
+      color: #EEEEEE;
+      font-weight: 500; }
       @media screen and (max-width: 504px) {
         #index-container .landing-page-layout .landing-page-body h4 {
           top: 12vh !important;
@@ -115,91 +116,91 @@ body {
         #index-container .landing-page-layout .landing-page-body #landing-page-button {
           top: 70vh; } }
 
-#index-container #body-page-layout .sidebar {
+#index-container .body-page-layout .sidebar {
   height: 100%;
   background: white; }
-  #index-container #body-page-layout .sidebar .social-media-links {
+  #index-container .body-page-layout .sidebar .social-media-links {
     padding: 8px 0px;
     display: block;
     text-align: center; }
-    #index-container #body-page-layout .sidebar .social-media-links .px500, #index-container #body-page-layout .sidebar .social-media-links .fb, #index-container #body-page-layout .sidebar .social-media-links .youtube, #index-container #body-page-layout .sidebar .social-media-links .vimeo {
+    #index-container .body-page-layout .sidebar .social-media-links .px500, #index-container .body-page-layout .sidebar .social-media-links .fb, #index-container .body-page-layout .sidebar .social-media-links .youtube, #index-container .body-page-layout .sidebar .social-media-links .vimeo {
       padding: 0px 5px;
       font-weight: 600; }
-    #index-container #body-page-layout .sidebar .social-media-links .px500 {
+    #index-container .body-page-layout .sidebar .social-media-links .px500 {
       color: #1a1a1a; }
-    #index-container #body-page-layout .sidebar .social-media-links .px500:hover {
+    #index-container .body-page-layout .sidebar .social-media-links .px500:hover {
       color: #000000;
       font-weight: 600;
       text-decoration: none;
       transition: ease-in 0.25s; }
-    #index-container #body-page-layout .sidebar .social-media-links .fb {
+    #index-container .body-page-layout .sidebar .social-media-links .fb {
       color: #5271ac; }
-    #index-container #body-page-layout .sidebar .social-media-links .fb:hover {
+    #index-container .body-page-layout .sidebar .social-media-links .fb:hover {
       color: #365899;
       font-weight: 600;
       text-decoration: none;
       transition: ease-in 0.25s; }
-    #index-container #body-page-layout .sidebar .social-media-links .youtube {
+    #index-container .body-page-layout .sidebar .social-media-links .youtube {
       color: #ff3939; }
-    #index-container #body-page-layout .sidebar .social-media-links .youtube:hover {
+    #index-container .body-page-layout .sidebar .social-media-links .youtube:hover {
       color: #ff0000;
       font-weight: 600;
       text-decoration: none;
       transition: ease-in 0.25s; }
-    #index-container #body-page-layout .sidebar .social-media-links .vimeo {
+    #index-container .body-page-layout .sidebar .social-media-links .vimeo {
       color: #53c5f1; }
-    #index-container #body-page-layout .sidebar .social-media-links .vimeo:hover {
+    #index-container .body-page-layout .sidebar .social-media-links .vimeo:hover {
       color: #00adf0;
       font-weight: 600;
       text-decoration: none;
       transition: ease-in 0.25s; }
-  #index-container #body-page-layout .sidebar .title, #index-container #body-page-layout .sidebar .body {
+  #index-container .body-page-layout .sidebar .title, #index-container .body-page-layout .sidebar .body {
     margin: 0 auto;
     padding: 40px 20px; }
     @media screen and (max-width: 767px) {
-      #index-container #body-page-layout .sidebar .title, #index-container #body-page-layout .sidebar .body {
+      #index-container .body-page-layout .sidebar .title, #index-container .body-page-layout .sidebar .body {
         padding: 10px 20px; } }
-  #index-container #body-page-layout .sidebar .title {
+  #index-container .body-page-layout .sidebar .title {
     background: #89C4F4; }
     @media screen and (max-width: 767px) {
-      #index-container #body-page-layout .sidebar .title {
+      #index-container .body-page-layout .sidebar .title {
         text-align: center; } }
-    #index-container #body-page-layout .sidebar .title h4 {
+    #index-container .body-page-layout .sidebar .title h4 {
       color: #3A539B !important; }
       @media screen and (max-width: 767px) {
-        #index-container #body-page-layout .sidebar .title h4 {
+        #index-container .body-page-layout .sidebar .title h4 {
           margin-bottom: 0px; } }
 
-#index-container #body-page-layout .right-section {
+#index-container .body-page-layout .right-section {
   padding: 10px 50px; }
-  #index-container #body-page-layout .right-section .col-lg-6 {
+  #index-container .body-page-layout .right-section .col-lg-6 {
     padding-bottom: 15px; }
-  #index-container #body-page-layout .right-section .col-lg-4 {
+  #index-container .body-page-layout .right-section .col-lg-4 {
     padding-bottom: 15px; }
-  #index-container #body-page-layout .right-section .card {
+  #index-container .body-page-layout .right-section .card {
     border-radius: 0px; }
-    #index-container #body-page-layout .right-section .card .card-header {
+    #index-container .body-page-layout .right-section .card .card-header {
       border-radius: 0px; }
-      #index-container #body-page-layout .right-section .card .card-header h5 {
+      #index-container .body-page-layout .right-section .card .card-header h5 {
         margin-bottom: 0px; }
-    #index-container #body-page-layout .right-section .card a.btn {
+    #index-container .body-page-layout .right-section .card a.btn {
       background: #3b60ab;
       color: #fff;
       border-color: #3b60ab;
       box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05), 0 2px 5px rgba(0, 123, 255, 0.25); }
-    #index-container #body-page-layout .right-section .card a.btn:hover {
+    #index-container .body-page-layout .right-section .card a.btn:hover {
       background: #204692;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(0, 123, 255, 0.25);
       transition: all 0.5s; }
-    #index-container #body-page-layout .right-section .card a.btn:focus {
+    #index-container .body-page-layout .right-section .card a.btn:focus {
       background: #204692; }
-    #index-container #body-page-layout .right-section .card:hover {
+    #index-container .body-page-layout .right-section .card:hover {
       box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
       -webkit-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
       -moz-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1);
       -o-box-shadow: 0 0.47rem 2.2rem 1rem rgba(90, 97, 105, 0.1), 0 0.94rem 1.407rem 0.7rem rgba(90, 97, 105, 0.1), 0 0.5rem 0.532rem 0.25rem rgba(90, 97, 105, 0.12), 0 0.195rem 0.12rem 0.05rem rgba(90, 97, 105, 0.1); }
 
-#index-container #body-page-layout .software-section, #index-container #body-page-layout .others-section {
+#index-container .body-page-layout .software-section, #index-container .body-page-layout .others-section {
   min-height: 100vh;
   background: #ECF0F1 url("../../img/cloud.png") no-repeat center fixed;
   -webkit-background-size: cover;
@@ -207,53 +208,53 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
-#index-container #body-page-layout .others-section {
+#index-container .body-page-layout .others-section {
   background: #ECF0F1 url("../../img/curvy.png") no-repeat center fixed; }
   @media screen and (max-width: 639px) {
-    #index-container #body-page-layout .others-section {
+    #index-container .body-page-layout .others-section {
       background: #ECF0F1 url("../../img/curvy-long.png") no-repeat center fixed !important; } }
-  #index-container #body-page-layout .others-section .iframe-container {
+  #index-container .body-page-layout .others-section .iframe-container {
     margin: 0px auto; }
     @media screen and (max-width: 767px) {
-      #index-container #body-page-layout .others-section .iframe-container iframe {
+      #index-container .body-page-layout .others-section .iframe-container iframe {
         width: 260px;
         height: 180px; } }
-  #index-container #body-page-layout .others-section .section-title {
+  #index-container .body-page-layout .others-section .section-title {
     background: silver;
     padding: 40px;
     margin: 20px 20px; }
-    #index-container #body-page-layout .others-section .section-title i, #index-container #body-page-layout .others-section .section-title h5 {
+    #index-container .body-page-layout .others-section .section-title i, #index-container .body-page-layout .others-section .section-title h5 {
       display: inline-block; }
-    #index-container #body-page-layout .others-section .section-title i {
+    #index-container .body-page-layout .others-section .section-title i {
       padding: 0px 5px; }
     @media screen and (max-width: 767px) {
-      #index-container #body-page-layout .others-section .section-title h5 {
+      #index-container .body-page-layout .others-section .section-title h5 {
         margin: 0px; } }
     @media screen and (max-width: 767px) {
-      #index-container #body-page-layout .others-section .section-title {
+      #index-container .body-page-layout .others-section .section-title {
         width: 100vw;
         padding: 15px;
         text-align: center; } }
-  #index-container #body-page-layout .others-section .design {
+  #index-container .body-page-layout .others-section .design {
     background: #F64747;
     color: #ececec; }
-    #index-container #body-page-layout .others-section .design h5 {
+    #index-container .body-page-layout .others-section .design h5 {
       color: #ececec; }
-  #index-container #body-page-layout .others-section .photo {
+  #index-container .body-page-layout .others-section .photo {
     color: #ececec;
     background: #2574A9; }
-    #index-container #body-page-layout .others-section .photo h5 {
+    #index-container .body-page-layout .others-section .photo h5 {
       color: #ececec; }
-  #index-container #body-page-layout .others-section .video {
+  #index-container .body-page-layout .others-section .video {
     color: #ececec;
     background: #1BBC9B; }
-    #index-container #body-page-layout .others-section .video h5 {
+    #index-container .body-page-layout .others-section .video h5 {
       color: #ececec; }
 
-#index-container #body-page-layout .modal-dialog {
+#index-container .body-page-layout .modal-dialog {
   max-width: 70%;
   margin: 30px auto; }
 
-#index-container #body-page-layout .modal-body {
+#index-container .body-page-layout .modal-body {
   position: relative;
   padding: 0px; }

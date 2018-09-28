@@ -130,6 +130,7 @@ body {
 				position: relative;
 				top:30vh;
 				color: #EEEEEE;
+				font-weight: 500;
 
 				@media screen and (max-width:504px){
 					top: 12vh !important;
@@ -161,7 +162,7 @@ body {
 
 	}
 
-	#body-page-layout {
+	.body-page-layout {
 
 		.container-fluid {
 			.row {
